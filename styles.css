@@ -1,0 +1,134 @@
+.judul {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+}
+
+#FenInDiv {
+  position: relative;
+  left: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+#fenIn {
+  width: 480px;
+  left: 60px;
+}
+
+#Board {
+  position: relative;
+  top: 20px;
+  left: 60px;
+  width: 480px;
+  height: 480px;
+  border-style: solid;
+  border-width: 2px;
+}
+
+#EngineOutput {
+  position: absolute;
+  left: 600px;
+  top: 100px;
+  font-size: 20px;
+}
+
+.Square {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+}
+
+.Dark {
+  background-color: rgb(58, 55, 55);
+}
+
+.Light {
+  background-color: #c8c8c8;
+}
+
+.SqSelected {
+  background-color: #216778;
+}
+
+.rank1 {
+  top: 420px;
+}
+.rank2 {
+  top: 360px;
+}
+.rank3 {
+  top: 300px;
+}
+.rank4 {
+  top: 240px;
+}
+.rank5 {
+  top: 180px;
+}
+.rank6 {
+  top: 120px;
+}
+.rank7 {
+  top: 60px;
+}
+.rank8 {
+  top: 0px;
+}
+
+.file1 {
+  left: 0px;
+}
+.file2 {
+  left: 60px;
+}
+.file3 {
+  left: 120px;
+}
+.file4 {
+  left: 180px;
+}
+.file5 {
+  left: 240px;
+}
+.file6 {
+  left: 300px;
+}
+.file7 {
+  left: 360px;
+}
+.file8 {
+  left: 420px;
+}
+
+.Piece {
+  position: absolute;
+}
+
+button {
+  position: relative;
+  display: inline-block;
+  margin: 15px;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: gray;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border: 2px solid gray;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0 gray;
+}
+
+button:hover {
+  color: white;
+  box-shadow: inset 0 -100px 0 0 gray;
+}
+
+button:active {
+  transform: scale(0.9);
+}
